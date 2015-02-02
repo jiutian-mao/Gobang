@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+	<dict>
+		<key>wo</key>
+		<string>我</string>
+		<key>xiaojiutian</key>
+		<string>小九天</string>
+		<key>maomao</key>
+		<string>MàoMao</string>
+		<key>QQ</key>
+		<string>759702330</string>
+		<key>font_yahei</key>
+		<string>微软雅黑</string>
+		<key>exitGame</key>
+		<string>是否退出游戏？</string>
+	</dict>
+</plist>
