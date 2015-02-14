@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\view">
+      <UniqueIdentifier>{b2769750-de2b-48b3-b278-8d8fdf8a0265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\view\scene">
+      <UniqueIdentifier>{b06b4fc2-f6ab-4576-b6af-0584bbc18f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\view\ui">
+      <UniqueIdentifier>{50b77d8b-0c01-4f61-8301-72cc8932c355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\view\widget">
+      <UniqueIdentifier>{9cfd6d73-4cae-45cb-a1b6-7081da3fe9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\view\layer">
+      <UniqueIdentifier>{a66e97d9-f50d-467c-92d5-7397df7c9bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\control">
+      <UniqueIdentifier>{8a288908-e3d6-448e-b988-a05d557c38d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\util">
+      <UniqueIdentifier>{1b56185e-b5e4-4d19-9853-bc59099e5285}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\ui\Chess.cpp">
+      <Filter>Classes\view\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\widget\PlayerInfoPanel.cpp">
+      <Filter>Classes\view\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\layer\PopupLayer.cpp">
+      <Filter>Classes\view\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\control\GameControl.cpp">
+      <Filter>Classes\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\util\Resources.cpp">
+      <Filter>Classes\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\util\EventUtil.cpp">
+      <Filter>Classes\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\stdafx.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\widget\BaseWidget.cpp">
+      <Filter>Classes\view\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\view\scene\MainGame.cpp">
+      <Filter>Classes\view\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\ui\Chess.h">
+      <Filter>Classes\view\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\scene\MainGame.h">
+      <Filter>Classes\view\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\widget\PlayerInfoPanel.h">
+      <Filter>Classes\view\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\layer\PopupLayer.h">
+      <Filter>Classes\view\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\control\GameControl.h">
+      <Filter>Classes\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\Resources.h">
+      <Filter>Classes\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\EventUtil.h">
+      <Filter>Classes\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stdafx.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\view\widget\BaseWidget.h">
+      <Filter>Classes\view\widget</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\cocos2d\cocos\ui\proj.win32\libGUI.vcxproj.filters" />
+  </ItemGroup>
+</Project>
