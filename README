@@ -1,2 +1,10 @@
-this is a test!
-2015-02-02
+游戏描叙：
+	a、使用Cocos2d-x3.2引擎，基于C++版本进行开发的手机棋盘类游戏。
+	b、完善游戏人机交互，屏幕适配，棋盘算法AI等游戏所需功能。
+	c、加强自己对Cocos2d-x引擎的理解，掌握Cocos Studio的运用。
+
+开发环境：
+	Cocos2d-x3.2 + Cocos Studio1.6 + VS2012 + Eclipse + Xcode
+
+编译说明：
+	把cocos2d3.2-C++版本的cocos2d文件夹拷贝至项目文件夹下即可。
