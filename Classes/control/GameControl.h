@@ -91,24 +91,21 @@ private:
 		FTWO = 4,//假活二
 		STHREE = 5,//眠三
 		TWO = 8,//活二
-		TWO1 = 9,//跳活二
-		TWO2 = 7,//大跳活二
 		FTHREE = 15,//假活三
-		SFOUR = 32,//冲四(玩家)
-		SFOUR1 = 105,//冲四(电脑)
-		SFOUR2 = 30,//冲四(跳冲四)
-		SFOUR3 = 100,//冲四(跳冲四,电脑)
+		SFOUR = 38,//冲四(玩家)
+		SFOUR1 = 390,//冲四(电脑)
+		SFOUR2 = 37,//冲四(跳冲四)
+		SFOUR3 = 388,//冲四(跳冲四,电脑)
 		THREE = 40,//活三
-		THREE1 = 42,//跳三(电脑)
-		THREE2 = 40,//跳三(玩家)
-		HFOUR = 50,//跳四(电脑)
+		THREE1 = 42,//跳三
+		HFOUR = 365,//跳四(电脑)
 		HFOUR1 = 39,//跳四(玩家)
-		FOUR_TWO = 200,//冲四加活二
-		THREE_THREE = 300,//双活三
-		FOUR_THREE = 400,//冲四加活三
-		FOUR_FOUR = 500,//双四
-		FOUR = 500,//活四
-		FOUR1 = 600,//活四(电脑)
+		FOUR_TWO = 372,//冲四加活二
+		THREE_THREE = 375,//双活三
+		FOUR_THREE = 390,//冲四加活三
+		FOUR_FOUR = 395,//双四
+		FOUR = 380,//活四
+		FOUR1 = 400,//活四(电脑)
 		FIVE = 1000,//五连
 	};
 };

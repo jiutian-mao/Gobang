@@ -146,7 +146,6 @@ bool PopupLayer::addButton(const char* normalImage,const char* selectedImage,
 
 void PopupLayer::addView(Node* node)
 {
-	_panel->addChild(node);
 	if(getSpriteBackGround() == nullptr)
 	{
 		setSpriteBackGround(node);
@@ -162,7 +161,6 @@ void PopupLayer::addView(Node* node,const Point& margin){
 	{
 		setSpriteBackGround(node);
 	}
-	_panel->addChild(node);
 }
  
 void PopupLayer::buttonCallBack(Ref* pSender)

@@ -717,28 +717,24 @@ int GameControl::calculateScore(string score,Type side)
 	if(str.find(five) != -1)
 	{
 		res = FIVE;
-		if(side == this->otherSide)
+		if(side ==	this->otherSide)
 		{
-			res *= 2;
+			res *=2;
 		}
 	}else if(str.find(four) != -1)
 		res = side == this->otherSide ? FOUR1 : FOUR;
 	else if(str.find(h_lfour) != -1 || str.find(h_cfour) != -1 || str.find(h_rfour) != -1)
 		res = side == this->otherSide ? HFOUR : HFOUR1;
 	else if(str.find(h_lthree) != -1 || str.find(h_rthree) != -1)
-		res = side == this->otherSide ? THREE1 : THREE2;
+		res = side == this->otherSide ? THREE1 : THREE;
 	else if(str.find(three) != -1)
 		res = THREE ;
-	else if(str.find(jtwo) != -1)
-		res = side == this->otherSide ? TWO1 : TWO;
-	else if(str.find(two)!=-1) 
+	else if(str.find(two)!=-1 || str.find(jtwo) != -1 || str.find(ctwo) != -1)
 		res = TWO;
-	else if(str.find(ctwo)!=-1) 
-		res = TWO2;
 	else if(str.find(lfour) != -1 || str.find(rfour) != -1)
 		res = side == this->otherSide ? SFOUR1 : SFOUR;
 	else if(str.find(l_four) != -1 || str.find(r_four) != -1)
-		res = SFOUR2;
+		res = side == this->otherSide ? SFOUR3 : SFOUR2;
 	else if(str.find(lfthree) != -1 || str.find(rfthree) != -1)
 		res = FTHREE;
 	else if(str.find(lthree) != -1 || str.find(rthree) != -1)
